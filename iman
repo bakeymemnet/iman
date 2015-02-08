@@ -1,4 +1,18 @@
 #!/usr/bin/python
+import urllib2
+import sys
 
-print 'hello'
+if len(sys.argv) > 1:
+	args = sys.argv[1]
+	if len(args) > 0:
+		dirletter = args[:1]
+	print 'searching for ' + args
+	try:
+		data = urllib2.urlopen('https://raw.githubusercontent.com/bakeymemnet/iman/master/mans/' + dirletter + '/' + args).read()
+	except:
+		data = 'Command not found'
+	print data
+else:
+	print 'v0.1 iman command'
+	print 'Will search for help on a command'
 
