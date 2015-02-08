@@ -1,0 +1,5 @@
+Examples
+
+ls -l list in long format with file information
+ls -lh same as -l with sizes reduced to readable units
+ls -lhs same as -lh with actually used size
