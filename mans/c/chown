@@ -1,0 +1,8 @@
+Used to change ownership on a file
+chown user file
+chown user:group file
+
+Examples
+change for all files and directories and files under those directories
+chown -R root:users *
+chown root:root file

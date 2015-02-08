@@ -1,0 +1,7 @@
+Command line calculator
+bc
+12+234
+246
+
+To use bc with decimal point
+bc -l

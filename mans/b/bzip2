@@ -1,0 +1,9 @@
+bz compress uncompress
+bzip2 to compress
+bzip2 -z file
+bzunip2 to uncompress
+bzip2 -d file.bz2
+To pipe the output to ssh or tar or another application
+bzip2 -c file | tar cv > file.tbz2
+To control compress rate fast 1 to 9 slow but smaller file
+bzip2 -9 file

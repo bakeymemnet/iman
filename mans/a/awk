@@ -1,0 +1,10 @@
+Examples
+
+print the first column
+awk {'print$1'} file 
+cat | awk {'print$1'}
+print username from an email address
+awk -F "@" {'print$1'}
+Put something around a piece of text
+awk {'print"ssh "$1" extra stuff"'}
+awk {'print"ssh "$1" \"extra stuff\""'}

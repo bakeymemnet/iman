@@ -1,0 +1,9 @@
+Used to display the web page code
+curl "http://www.website.com"
+show only page header
+curl -I "http://www.website.com"
+show page and header
+curl -i "http://www.website.com"
+skip certificate errors
+curl -k "https://www.website.com"
+curl -H 'Host: www.differentname.com' "http://www.website.com"

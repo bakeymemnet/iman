@@ -1,0 +1,3 @@
+copy files
+cp file newfile
+cp -av directory newdirectory

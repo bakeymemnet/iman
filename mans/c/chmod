@@ -1,0 +1,14 @@
+Used to change the permissions on a file or directory
+make a file executable for all and writeable by the owner
+chmod 755 file
+make a file read write for owner
+chmod 600 file
+make a file read write for owner and readable for everyone else
+chmod 644 file
+make a file readonly for the owner
+chmod 400 file
+
+The file permissions are owner group everyone
+755 is rwxr-xr-x
+600 is rw-------
+644 is rw-r--r--
