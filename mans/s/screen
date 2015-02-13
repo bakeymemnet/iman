@@ -1,0 +1,19 @@
+screen is used to keep something running in case you get disconnected or need to come back later
+
+screen -ls
+screen -r
+
+Create a screen with a name instead of a generated screen name
+screen -S name
+
+Multiuser connect
+screen -x name
+screen -x username/screen-name
+Ctrl-a
+:acladd otheruser
+
+To exit
+Ctrl-a d
+Ctrl-a
+:
+detach
