@@ -1,0 +1,6 @@
+Don't use su use sudo
+
+For root access
+su -
+For user access
+su - username

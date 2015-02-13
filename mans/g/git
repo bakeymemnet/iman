@@ -1,0 +1,25 @@
+git clone repo
+ssh git
+add your public ssh key in the web interface on github
+git clone git@github.com:username/project.git
+web git
+git clone https://github.com/username/projectname
+Use svn with git
+put .gitignore in the same directory as .svn with these two lines
+.svn/
+.gitignore
+
+git init
+git add .
+git commit -m "somthing" .
+
+git init
+git add file/directory
+git commit -m "somthing" filename
+
+git remote add name ssh://server/directory/projectname
+git push name master
+git push name master:branchname
+You can only push to a branch that is not checked out
+
+git checkout branchname

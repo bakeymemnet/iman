@@ -1,0 +1,5 @@
+glance is used to download or create image files on cloud services
+
+glance -k --os-username user --os-password pass --os-tenant-id projectid --os-auth-url https://server/v2.0 image-list
+
+glance -k --os-username user --os-password pass --os-tenant-id projectid --os-auth-url https://server/v2.0 image-download --file imagename --progress imageid
