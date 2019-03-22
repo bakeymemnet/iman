@@ -12,7 +12,7 @@ if len(sys.argv) > 1:
 		data = urllib2.urlopen('https://raw.githubusercontent.com/bakeymemnet/iman/master/mans/' + dirletter + '/' + args).read()
 	except:
 		data = 'Command not found'
-	print data
+	sys.exit(data)
 else:
 	print 'v0.1 iman command'
 	print 'Will search for help on a command'
