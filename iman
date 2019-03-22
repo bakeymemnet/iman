@@ -10,6 +10,7 @@ if len(sys.argv) > 1:
 	print 'searching for ' + args
 	try:
 		data = urllib2.urlopen('https://raw.githubusercontent.com/bakeymemnet/iman/master/mans/' + dirletter + '/' + args).read()
+		print data
 	except:
 		data = 'Command not found'
 		sys.exit(data)
