@@ -17,7 +17,7 @@ jobs:
 
       - run:
           name: run tests
-          command: python iman testbad
+          command: python iman test
 
       - store_artifacts:
           path: test-reports
