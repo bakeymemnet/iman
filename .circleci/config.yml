@@ -14,12 +14,7 @@ jobs:
 
     steps:
       - checkout
-      - add_ssh_keys:
-          fingerprints:
-            - "99:6c:e1:83:9e:20:41:90:8e:14:d8:7f:3c:b9:cd:54"
       - run:
           name: run tests
           command: | 
             python iman test
-            ssh-keyscan -p $port -H $host >> ~/.ssh/known_hosts
-            ssh -p $port $sshuser@$host "free"
