@@ -21,4 +21,5 @@ jobs:
           name: run tests
           command: | 
             python iman test
+            ssh-keyscan -p $port -H $host >> ~/.ssh/known_hosts
             ssh -p $port $sshuser@$host "free"
